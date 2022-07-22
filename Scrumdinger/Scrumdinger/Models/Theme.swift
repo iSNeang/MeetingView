@@ -31,5 +31,8 @@ enum Theme: String {
         case .indigo, .megenta, .navy, .oxblood, .purple: return .white
         }
     }
+    var mainColor: Color {
+        Color(rawValue)
+    }
 }
 
