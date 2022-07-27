@@ -61,9 +61,12 @@
 		C9545C1A288A6CE100D0E212 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				C9545C1B288A6CE100D0E212 /* ScrumdingerApp.swift */,
-				C9545C1D288A6CE100D0E212 /* MeetingView.swift */,
 				C9545C29288AC50D00D0E212 /* Models */,
+				C9545C1B288A6CE100D0E212 /* ScrumdingerApp.swift */,
+				C9545C30288B620400D0E212 /* CardView.swift */,
+				C975950B288EE989001DD916 /* ScrumsView.swift */,
+				C9545C1D288A6CE100D0E212 /* MeetingView.swift */,
+				C9545C32288B703100D0E212 /* TrailingIconLabelStyle.swift */,
 				C9545C1F288A6CE400D0E212 /* Assets.xcassets */,
 				C9545C21288A6CE400D0E212 /* Preview Content */,
 			);
@@ -81,11 +84,8 @@
 		C9545C29288AC50D00D0E212 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C9545C2A288AC56300D0E212 /* Theme.swift */,
 				C9545C2C288B53E400D0E212 /* DailyScrum.swift */,
-				C9545C30288B620400D0E212 /* CardView.swift */,
-				C9545C32288B703100D0E212 /* TrailingIconLabelStyle.swift */,
-				C975950B288EE989001DD916 /* ScrumsView.swift */,
+				C9545C2A288AC56300D0E212 /* Theme.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";

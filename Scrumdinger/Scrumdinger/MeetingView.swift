@@ -7,13 +7,6 @@ import SwiftUI
 struct MeetingView: View {
     var body: some View {
         VStack {
-            Text("Group Meeting")
-                .font(.title)
-            HStack {
-                Label("Presentation", systemImage:  "paperclip.circle.fill")
-                Text("of 3 people")
-            }
-    
             ProgressView(value: 5, total: 15)
             HStack {
                 VStack (alignment: .leading) {
